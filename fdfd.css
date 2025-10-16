@@ -1,0 +1,17 @@
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://img.pikbest.com/wp/202344/ice-texture-background-blue-nature-with-abstract_9929027.jpg!w700wp);
+}
+div{
+    border: 20px solid bisque;
+    margin:auto;
+    display: flex;
+    gap: 8px;
+    align-items: centers;
+}
+p:hover{
+    background-image: url(https://preview.redd.it/tanjiro-as-a-demon-redrawn-v0-tcuaag7wg7sb1.png?width=640&crop=smart&auto=webp&s=0a8156d0c7ab195a98ab6e73e62011bb21c9100e);
+    color: blueviolet;
+}

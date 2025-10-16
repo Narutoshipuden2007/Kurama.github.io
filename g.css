@@ -1,0 +1,52 @@
+a{
+    text-decoration: none;
+}
+.menu>li{
+    list-style: none;
+    padding: 10px;
+    flex-grow: 1;
+    position: relative;
+    background-color: black;
+    color: azure;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0;
+}
+.menu >li>ul{
+    flex-direction: column;
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -20px;
+    padding: 25px;
+    background-image: url(https://media.istockphoto.com/id/1463701601/uk/%D1%84%D0%BE%D1%82%D0%BE/%D0%B0%D0%B1%D1%81%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BD%D0%B8%D0%B9-%D0%BA%D1%80%D0%B8%D0%B6%D0%B0%D0%BD%D0%B8%D0%B9-%D0%B1%D0%BB%D0%B0%D0%BA%D0%B8%D1%82%D0%BD%D0%B8%D0%B9-%D1%84%D0%BE%D0%BD-%D1%84%D1%80%D0%B0%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D0%BD%D1%96-%D0%BA%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%BB%D0%B8-%D0%BB%D1%8C%D0%BE%D0%B4%D1%83.jpg?s=612x612&w=0&k=20&c=4t0RxUSDqGvr0_tzEfk5qsxntwyDwjhOamhavjBXwSQ=);
+}
+li:hover>ul{
+    display: flex;
+    justify-content: space-around;
+    animation: f 3s 1;
+    background-size: 100%;
+}
+body{
+    background-image: url(https://harmoniyatermal.com/wp-content/uploads/2021/12/29-es-water-preview_0.jpg);
+    background-size: 100%;
+}
+@keyframes f {
+    0%{
+        top: -100px;
+        opacity: 0.5;
+    }
+    50%{
+        top: 50%;
+        background-image: url(https://chytomo.com/wp-content/uploads/2020/06/0-scaled.jpg);
+    }
+    100%{
+        top: 100%;
+        opacity: 1;
+    }
+
+}

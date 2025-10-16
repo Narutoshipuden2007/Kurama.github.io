@@ -1,0 +1,26 @@
+div{
+    border: 20px double blueviolet;
+    border-radius: 50%;
+   background-color:indigo;
+}
+body{
+    background-image: url(https://static.wikia.nocookie.net/vsbattles/images/3/3a/MichaelKaiserManga.webp/revision/latest?cb=20250811191616);
+}
+.circle{
+    min-height: 440px;
+    color: aqua;
+    transition: all 1s;
+    background-image: url(https://i.ytimg.com/vi/sc0q9Bu4dDM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDy2WPwAfFFXHcBu9CSgmsrZPIQDQ);
+    /* background-color: red; */
+}
+
+.circle:hover{
+     background-image: url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/01/michael-kaiser-blue-lock.jpg?w=1600&h=900&fit=crop);
+}
+.circle > img:hover{
+    display: none;
+}
+
+img{
+    opacity: 0.5;
+}

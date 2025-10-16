@@ -1,0 +1,28 @@
+img{
+    width: 700px;
+    height: 200px;}
+    body{
+        background-repeat: no-repeat;
+    background-size: 100%;
+    color: azure;
+    background-image: url(https://www.5.ua/media/pictures/400x266/230052.jpg?t=1632215441);
+    }
+    img:hover{
+        border: 20px double indigo;
+        animation: t 4s 1;
+    }
+    
+    @keyframes t{
+        0%{
+            top: -20px;
+            opacity: 0;
+        }
+        50%{
+top: 50%;
+background-color: aqua;
+        }
+        100%{
+            top: 100%;
+            opacity: 1;
+        }
+    }
