@@ -1,0 +1,10 @@
+img{
+    width: 700px;
+    height: 200px;
+}
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/05/72/92/77/360_F_572927794_llmukXl37DP2HA7kXy9CLxTF5lDSjyI6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: azure;
+}
